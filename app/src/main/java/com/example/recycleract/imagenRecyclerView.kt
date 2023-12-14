@@ -40,7 +40,7 @@ class imagenRecyclerView : AppCompatActivity(), PokemonAdapter.OnItemListener {
 
     override fun onImagenItinerationClick(image: String) {
         val intent = Intent(this, AmpliarImagen::class.java)
-        intent.putExtra("imagenUrl", image)
+
         startActivity(intent)
     }
 
